@@ -38,11 +38,12 @@ function efectoHabilidades() {
     if (distancia_skills >= 300) {
         document.getElementById("html").classList.add("barra-progreso1");
         document.getElementById("js").classList.add("barra-progreso2");
-        document.getElementById("vue").classList.add("barra-progreso3");
+        document.getElementById("vue2").classList.add("barra-progreso3");
         document.getElementById("react").classList.add("barra-progreso4");
         document.getElementById("bd").classList.add("barra-progreso5");
         document.getElementById("express").classList.add("barra-progreso6");
-        // document.getElementById("bd").classList.add("barra-progreso5");
+        document.getElementById("vue3").classList.add("barra-progreso7");
+        document.getElementById("pinia").classList.add("barra-progreso8");
         // document.getElementById("bd").classList.add("barra-progreso5");
         // document.getElementById("bd").classList.add("barra-progreso5");
     }
